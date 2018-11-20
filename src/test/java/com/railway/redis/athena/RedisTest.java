@@ -1,6 +1,6 @@
-package com.railway.rbpsems.athena;
+package com.railway.redis.athena;
 
-import com.railway.rbpsems.RBPSEMSApplication;
+import com.railway.redis.RBPSEMSApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
