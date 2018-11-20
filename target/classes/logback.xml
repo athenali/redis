@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+	<property resource="logback.properties" />
+
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="infoAppender"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${logging.path}${logging.info.file}</file>
+		<append>true</append>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${logging.path}${logging.info.file}-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>${logging.info.maxHistory}</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">  
+	        <level>INFO</level>  
+	         <onMatch>ACCEPT</onMatch>  
+            <onMismatch>DENY</onMismatch>  
+    	</filter>  
+	</appender>
+	
+	<appender name="debugAppender"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${logging.path}${logging.debug.file}</file>
+		<append>true</append>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${logging.path}${logging.debug.file}-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>${logging.debug.maxHistory}</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">  
+	        <level>DEBUG</level>  
+	         <onMatch>ACCEPT</onMatch>  
+            <onMismatch>DENY</onMismatch>  
+    	</filter>  
+	</appender>
+	
+	
+	<appender name="errorAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">  
+        <file>${logging.path}${logging.error.file}</file>  
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">  
+            <fileNamePattern>${logging.path}${logging.error.file}-%d{yyyy-MM-dd}.log</fileNamePattern>  
+            <maxHistory>${logging.error.maxHistory}</maxHistory>
+        </rollingPolicy>
+        <encoder>  
+            <pattern>%d{HH:mm:ss.SSS} %thread %X{invokeNo} %logger{40} %msg%n</pattern>  
+        </encoder>  
+        <filter class="ch.qos.logback.classic.filter.LevelFilter"><!-- 只打印错误日志 -->  
+            <level>ERROR</level>  
+            <onMatch>ACCEPT</onMatch>  
+            <onMismatch>DENY</onMismatch>  
+        </filter>  
+    </appender>  
+
+	<root level="INFO">
+		<appender-ref ref="stdout" />
+		<appender-ref ref="infoAppender" />
+		<appender-ref ref="debugAppender" />
+		<appender-ref ref="errorAppender" />
+	</root>
+</configuration>

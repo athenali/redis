@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.railway.rbpsems.config.RedisProperties",
+      "name": "spring.redis",
+      "type": "com.railway.rbpsems.config.RedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.railway.rbpsems.config.RedisProperties",
+      "name": "spring.redis.cluster-nodes",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.railway.rbpsems.config.RedisProperties",
+      "name": "spring.redis.command-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.railway.rbpsems.config.RedisProperties",
+      "name": "spring.redis.expire-seconds",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

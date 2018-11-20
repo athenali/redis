@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    #url: jdbc:postgresql://localhost:5432/rbpsems
+    url: jdbc:postgresql://10.73.118.222:5432/rbpsems
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+
+       
+led:
+  base-info-url: http://172.28.3.58:8004/ServiceGetData.asmx/PISGetBaseInfo
+  get-status-url: http://172.28.3.58:8004/ServiceGetData.asmx/PISGetStatus
+  set-status-url: http://172.28.3.58:8004/ServiceGetData.asmx/PISSetStatus
+
+upload:
+  image: /Users/changjiasheng/Desktop/tmp
+httpService: 
+  list-url: http://10.73.118.222:5000/api/DeviceTwins/Status
+  change-url: http://10.73.118.222:5000/api/DeviceTwins/WriteProperty
+lightingPlan: 
+  interval: 5
+server:
+  port: 8085
