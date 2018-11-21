@@ -27,3 +27,11 @@ httpService:
   change-url: http://10.73.118.222:5000/api/DeviceTwins/WriteProperty
 lightingPlan:
   interval: 5
+mail:
+  host: smtp.qq.com //邮箱服务器地址
+  port: 587
+  username: 1159804258@qq.com
+  password: wfbvuagvhzhybabb
+  protocol: smtp
+  default-encoding: utf-8
+  fromMail.addr:  1159804258@qq.com

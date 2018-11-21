@@ -3,13 +3,13 @@ package com.railway.redis.athena;
 import com.railway.redis.RBPSEMSApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.JedisCluster;
 
-import javax.annotation.Resource;
 import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
@@ -19,6 +19,8 @@ import java.util.Set;
 public class RedisTest {
 @Autowired
 private JedisCluster jedisCluster;
+    private  static final org.slf4j.Logger logger=LoggerFactory.getLogger(RedisTest.class);
+
 @Test
     public void test(){
 // 第一步：使用JedisCluster对象。需要一个Set<HostAndPort>参数。Redis节点的列表。
@@ -56,8 +58,11 @@ private JedisCluster jedisCluster;
 }*/
 @Test
     public void test1(){
-    Boolean bb=jedisCluster.exists("name");
-    System.out.println("=============="+bb);
+  //  Boolean bb=jedisCluster.exists("name");
+    logger.debug("8888888888888888888888888888");
+    logger.error("9999999999999999999999999999999");
+    logger.info("0000000099999999999999997777777777777777777");
+    System.out.println("==============");
 }
 
 }

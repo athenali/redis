@@ -3,12 +3,15 @@ package com.railway.redis;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @SpringBootApplication
 public class RBPSEMSApplication {
+
 	public static void main(String[] args) {
 		SpringApplication.run(RBPSEMSApplication.class, args);
 		System.out.printf(
@@ -18,4 +21,5 @@ public class RBPSEMSApplication {
 						+ "\n----------------------------------------------------------\n"
 				);
 	}
+
 }

@@ -13,10 +13,20 @@
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<file>${logging.path}${logging.info.file}</file>
 		<append>true</append>
+		<!--滚动策略-->
+		<!--滚动策略主要分为以下几种
+		TimeBasedRollingPolicy  基于时间的滚动策略
+		SizeAndTimeBasedRollingPolicy  基于时间和文件大小
+		<totalSizeCap>限定的是所有的归档日志文件，而<maxFileSize>限定的则是单个日志文件
+         FixedWindowRollingPolicy  基于窗口大小，也就是看归档文件到最大就写到下一个文件中
+		-->
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!--路径-->
 			<fileNamePattern>${logging.path}${logging.info.file}-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<!--日志保存的时间-->
 			<maxHistory>${logging.info.maxHistory}</maxHistory>
 		</rollingPolicy>
+		<!--日志格式化-->
 		<encoder>
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
 		</encoder>
