@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="74c66427-e71c-4f7e-8c8e-8705951eb2e7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/config/DuridConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/railway/redis/athena/druidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/railway/redis/RBPSEMSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/RBPSEMSApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/railway/redis/config/JedisClusterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/config/JedisClusterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/railway/redis/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/railway/redis/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/railway/redis/scheduler/schedulerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/railway/redis/scheduler/schedulerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/railway/redis/athena/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/railway/redis/athena/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/railway/redis/athena/mailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/railway/redis/athena/mailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/railway/rbpsems/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/railway/rbpsems/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/railway/redis/RBPSEMSApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/railway/redis/RBPSEMSApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/railway/redis/config/JedisClusterConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/railway/redis/config/JedisClusterConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/railway/redis/mail/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/railway/redis/mail/MailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/railway/redis/scheduler/schedulerTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/railway/redis/scheduler/schedulerTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/railway/redis/athena/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/railway/redis/athena/RedisTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/redis$RBPSEMSApplication__1_.ic" NAME="RBPSEMSApplication (1) Coverage Results" MODIFIED="1542792019856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.railway.redis.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rbpsems@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rbpsems@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MailServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="89" column="36" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mailTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/railway/redis/athena/mailTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="51" column="88" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>like</find>
+      <find>StatisticsVO</find>
+      <find>sum</find>
+      <find>map</find>
+      <find>count</find>
+      <find>as</find>
+      <find>DeviceLifeCycle</find>
+      <find>redun</find>
+      <find>findPeriodBaoFeiByCode</find>
+      <find>case</find>
+      <find>findPeriodBaoFei</find>
+      <find>realTimeDeviceFaultInfo</find>
+      <find>role</find>
+      <find>sRepairAttachmentId</find>
+      <find>region</find>
+      <find>sFaultDisSug</find>
+      <find>dFaultTime</find>
+      <find>faultState</find>
+      <find>指挥</find>
+      <find>故障维修</find>
+      <find>/100</find>
+      <find>/</find>
+      <find>extract(epoch</find>
+      <find>fw</find>
+      <find>rbpsems</find>
+      <find>192.168.204.134</find>
+      <find>mail</find>
+      <find>druid</find>
+      <find>redis</find>
+      <find>CacheManager</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>st.station_name</replace>
+      <replace>;</replace>
+      <replace>n_duration</replace>
+      <replace>GUZHANG_R</replace>
+      <replace>GUZHANG_J</replace>
+      <replace>DAIXIU</replace>
+      <replace>WEIXIU</replace>
+      <replace>BAOFEI</replace>
+      <replace>ZAIKU</replace>
+      <replace>pageSupport.getResultSize()</replace>
+      <replace>ZAIYONG</replace>
+      <replace>pageSupport.getTotalCount()</replace>
+      <replace>(device.getPeriod() == null ? 2 : device.getPeriod())</replace>
+      <replace>fi</replace>
+      <replace>redis</replace>
+      <replace>10.83.7.155</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\workspace\wer\rbpsems\src\main\resources</dir>
+      <dir>E:\workspace\wer\rbpsems\src\main\java\com\railway\rbpsems\dto</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/config/JedisClusterConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/config/RedisConfig.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dao/DeviceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/service/impl/StationMasterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/service/impl/CommandCentreServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/web/StationMasterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/web/op/OpFaultWorkorderConteoller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dto/NowFaultCountByStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dto/NowFaultCountByStatusDTO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/railway/rbpsems/athena/ManageIndexTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/entity/op/OpFaultWorkorder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/service/op/OpFaultWorkorderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/web/op/OpFaultConditionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dto/CountDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dao/op/OpFaultInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dao/op/OpFaultWorkorderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/service/op/impl/OpFaultWorkorderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/RBPSEMSApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/railway/rbpsems/DataBaseInitialization.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/railway/rbpsems/athena/StreamApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/RedisProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/JedisClusterConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/config/RedisProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/rbpsems/config/JedisClusterConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/railway/rbpsems/athena/RedisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/config/RedisProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/schedulerTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/mail/sendSimpleMail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/mail/mailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/railway/redis/athena/druidTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/scheduler/schedulerTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/config/DuridConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/RBPSEMSApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/railway/redis/athena/RedisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/config/JedisClusterConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/railway/redis/athena/mailTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/java/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\java\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="73" />
+    <option name="y" value="76" />
+    <option name="width" value="1580" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="242" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="242" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="242" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="241" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="242" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="241" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="243" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="243" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="244" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="243" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="244" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="243" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="e254fe66-0921-4b3b-8d5b-d37f9af5fa62" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="last_opened_file_path" value="E:/workspace/rfamis" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.railway.rbpsems.dto" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.railway.rbpsems.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ownworkspace\rbpsems\src\main\java\com\railway\rbpsems\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.mailTest.sendLineResourceMail">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="mailTest.sendAttachmentMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.railway.redis.athena.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.railway.redis.athena" />
+      <option name="MAIN_CLASS_NAME" value="com.railway.redis.athena.mailTest" />
+      <option name="METHOD_NAME" value="sendAttachmentMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="mailTest.sendHtmlMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.railway.redis.athena.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.railway.redis.athena" />
+      <option name="MAIN_CLASS_NAME" value="com.railway.redis.athena.mailTest" />
+      <option name="METHOD_NAME" value="sendHtmlMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="mailTest.sendLineResourceMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.railway.redis.athena.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.railway.redis.athena" />
+      <option name="MAIN_CLASS_NAME" value="com.railway.redis.athena.mailTest" />
+      <option name="METHOD_NAME" value="sendLineResourceMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="mailTest.testSimpleMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.railway.redis.athena.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.railway.redis.athena" />
+      <option name="MAIN_CLASS_NAME" value="com.railway.redis.athena.mailTest" />
+      <option name="METHOD_NAME" value="testSimpleMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RBPSEMSApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.railway.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.railway.redis.RBPSEMSApplication" />
+    </configuration>
+    <configuration name="RBPSEMSApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.railway.rbpsems.RBPSEMSApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.RBPSEMSApplication" />
+      <item itemvalue="Spring Boot.RBPSEMSApplication (1)" />
+      <item itemvalue="JUnit.mailTest.testSimpleMail" />
+      <item itemvalue="JUnit.mailTest.sendHtmlMail" />
+      <item itemvalue="JUnit.mailTest.sendAttachmentMail" />
+      <item itemvalue="JUnit.mailTest.sendLineResourceMail" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.mailTest.sendLineResourceMail" />
+        <item itemvalue="JUnit.mailTest.sendAttachmentMail" />
+        <item itemvalue="JUnit.mailTest.sendHtmlMail" />
+        <item itemvalue="JUnit.mailTest.testSimpleMail" />
+        <item itemvalue="Spring Boot.RBPSEMSApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\athena.li\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74c66427-e71c-4f7e-8c8e-8705951eb2e7" name="Default" comment="" />
+      <created>1537168962562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537168962562</updated>
+      <workItem from="1537168969139" duration="110801000" />
+      <workItem from="1537430981237" duration="45507000" />
+      <workItem from="1537865630994" duration="67015000" />
+      <workItem from="1538100826636" duration="46732000" />
+      <workItem from="1538746030395" duration="2661000" />
+      <workItem from="1538960662501" duration="34111000" />
+      <workItem from="1539072190726" duration="128000" />
+      <workItem from="1539072727586" duration="10498000" />
+      <workItem from="1539135908449" duration="25849000" />
+      <workItem from="1539337550604" duration="4281000" />
+      <workItem from="1539420084391" duration="2875000" />
+      <workItem from="1539486343898" duration="276000" />
+      <workItem from="1539486710352" duration="85000" />
+      <workItem from="1539487024350" duration="97339000" />
+      <workItem from="1540000938800" duration="193000" />
+      <workItem from="1542678702768" duration="11485000" />
+      <workItem from="1542701694060" duration="8038000" />
+      <workItem from="1542763544677" duration="2764000" />
+      <workItem from="1542766347274" duration="30149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="mailTest_testSimpleMail - 2018.11.21 at 19h 49m 01s.xml">
+      <configuration name="mailTest.testSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mailTest_testSimpleMail - 2018.11.21 at 19h 50m 22s.xml">
+      <configuration name="mailTest.testSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mailTest_testSimpleMail - 2018.11.21 at 19h 51m 00s.xml">
+      <configuration name="mailTest.testSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mailTest_testSimpleMail - 2018.11.22 at 09h 25m 08s.xml">
+      <configuration name="mailTest.testSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mailTest_sendHtmlMail - 2018.11.22 at 09h 53m 47s.xml">
+      <configuration name="mailTest.sendHtmlMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mailTest_sendAttachmentMail - 2018.11.22 at 10h 07m 21s.xml">
+      <configuration name="mailTest.sendAttachmentMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mailTest_sendAttachmentMail - 2018.11.22 at 10h 15m 21s.xml">
+      <configuration name="mailTest.sendAttachmentMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mailTest_sendAttachmentMail - 2018.11.22 at 10h 15m 59s.xml">
+      <configuration name="mailTest.sendAttachmentMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mailTest_sendAttachmentMail - 2018.11.22 at 11h 11m 50s.xml">
+      <configuration name="mailTest.sendAttachmentMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mailTest_sendAttachmentMail - 2018.11.22 at 11h 12m 45s.xml">
+      <configuration name="mailTest.sendAttachmentMail" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="500787000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="59" y="61" width="1264" height="840" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.375" />
+      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49661016" weight="0.112600535" />
+      <window_info anchor="bottom" id="Database Changes" order="4" sideWeight="0.49932975" weight="0.23735955" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="9" side_tool="true" weight="0.13404825" />
+      <window_info id="Structure" order="6" sideWeight="0.12807882" side_tool="true" weight="0.15817694" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" sideWeight="0.90147454" visible="true" weight="0.19487908" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.3286517" />
+      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.4992722" weight="0.18892045" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" sideWeight="0.49932975" weight="0.3286517" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49932975" weight="0.29213482" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.4992722" weight="0.32716927" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.50338984" side_tool="true" weight="0.15817694" />
+      <window_info anchor="bottom" id="Spring" order="0" sideWeight="0.49932975" weight="0.43117976" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.43600562" />
+      <window_info id="Persistence" order="8" sideWeight="0.36657304" side_tool="true" weight="0.1508043" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.5569853" weight="0.20729685" />
+      <window_info anchor="right" id="Bean Validation" order="4" weight="0.3297587" />
+      <window_info id="Web" order="4" sideWeight="0.4430147" side_tool="true" weight="0.16554959" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="338" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="redisProperties.getClusterNodes()" />
+        <watch expression="redisProperties.getClusterNodes()" />
+      </configuration>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="var4" />
+        <watch expression="var16" />
+        <watch expression="!StringUtils.isEmpty(listByCategoryAndRegionAndStationAndTime)" />
+        <watch expression="listByCategoryAndRegionAndStationAndTime.getSize()" />
+        <watch expression="getUser().getRole().getOrganization().getId()" />
+        <watch expression="data(new Date(),device.getEnableDate())" />
+        <watch expression="data(new Date(),device.getEnableDate())" />
+        <watch expression="deviceCategoryPeriodDTOS.stream().filter(dto -&gt; dto.getPeriod() &gt; 8)" />
+        <watch expression="periodBaoFeis.stream().filter(device-&gt;device.getCode().startsWith(&quot;01&quot;))" />
+        <watch expression="device.getPeriod()" />
+        <watch expression="device" />
+        <watch expression="device.getEnableDate()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dto/ConditionPreciseDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dto/DeviceMonitorDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dto/CountDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dto/NowFaultCountByStatusDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/service/op/OpFaultWorkorderService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/web/op/OpFaultInfoController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/web/StationMasterController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dao/op/OpFaultInfoDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/entity/op/OpFaultWorkorder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/dao/op/OpFaultWorkorderDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/web/op/OpFaultConditionController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/service/op/impl/OpFaultWorkorderServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/railway/rbpsems/DataBaseInitialization.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/railway/rbpsems/RBPSEMSApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/entity/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/workspace/wer/rbpsems/src/main/java/com/railway/rbpsems/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/config.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/config/JedisClusterConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/config/RedisProperties.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/rbpsems/RBPSEMSApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/railway/rbpsems/athena/RedisTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.17.RELEASE/spring-core-4.3.17.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/railway/redis/athena/druidTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/scheduler/schedulerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/config/DuridConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#878#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/RBPSEMSApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisCluster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/config/JedisClusterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/config/RedisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/railway/redis/athena/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/railway/redis/mail/MailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="89" column="36" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/railway/redis/athena/mailTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="51" column="88" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|redis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework.data:spring-data-redis:1.8.12.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.62068963" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean package -DskipTests" />
+    <option value="compile" />
+    <option value="clean" />
+  </component>
+</project>

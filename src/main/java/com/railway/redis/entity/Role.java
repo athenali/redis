@@ -1,4 +1,4 @@
-package com.railway.rbpsems.entity;
+package com.railway.redis.entity;
 
 import java.io.Serializable;
 import java.util.Date;

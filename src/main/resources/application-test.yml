@@ -1,21 +1,54 @@
 spring:
   datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/redis
     #url: jdbc:postgresql://10.73.118.222:5432/rbpsems
     #url: jdbc:postgresql://192.168.3.200:5432/rbpsems
     username: postgres
     password: 123456
+    #配置监控拦截的filters,去掉后在监控界面将无法统计sql,wall用于防火墙
+    filters: stat,wall,log4j
+    #最大活跃数
+    maxActive: 20
+    #初始化数量
+    initialSize: 1
+    #最大连接等待超时时间
+    maxWait: 60000
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    #打开mergeSql,慢sql记录
+    connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    minldle: 1
+    timeBetweenEvictionRunsMills: 60000
+
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
     properties:
       hibernate.format_sql: false
-redis:
-  clusterNodes: 10.83.7.155:9001,10.83.7.155:9002,10.83.7.155:9003,10.83.7.155:9004,10.83.7.155:9005,10.83.7.155:9006
-  expireSeconds: 120
-  commandTimeout: 10000 #redis操作的超时时长
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: 1159804258@qq.com
+    password: wfbvuagvhzhybabb
+    protocol: smtp
+    default-encoding: utf-8
+    fromMail.addr:  1159804258@qq.com
+  redis:
+    clusterNodes: 10.83.7.155:9001,10.83.7.155:9002,10.83.7.155:9003,10.83.7.155:9004,10.83.7.155:9005,10.83.7.155:9006
+    expireSeconds: 120
+    commandTimeout: 10000 #redis操作的超时时长
+#    database: 0
+#    host: 10.83.7.155
+#    port: 6379
+#    pool:
+#      max-active: 8
+#      max-idle: 8
+#      min-idle: 0
+#      max-wait: 10000
+
 led:
   base-info-url: http://172.28.3.58:8004/ServiceGetData.asmx/PISGetBaseInfo
   get-status-url: http://172.28.3.58:8004/ServiceGetData.asmx/PISGetStatus
@@ -27,11 +60,4 @@ httpService:
   change-url: http://10.73.118.222:5000/api/DeviceTwins/WriteProperty
 lightingPlan:
   interval: 5
-mail:
-  host: smtp.qq.com //邮箱服务器地址
-  port: 587
-  username: 1159804258@qq.com
-  password: wfbvuagvhzhybabb
-  protocol: smtp
-  default-encoding: utf-8
-  fromMail.addr:  1159804258@qq.com
+

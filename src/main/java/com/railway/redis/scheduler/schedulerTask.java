@@ -22,7 +22,7 @@ public class schedulerTask {
     private int count=0;
     private static final SimpleDateFormat simpleDateFormat=new SimpleDateFormat("HH:mm:ss");
    /** 每6秒执行一次*/
-    @Scheduled(cron="*/6 * * * * ?")
+   // @Scheduled(cron="*/6 * * * * ?")
     private void process(){
         System.out.println("this is scheduler task runing"+(count++));
     }
@@ -30,7 +30,7 @@ public class schedulerTask {
     /**
      * 每6秒执行一次
      */
-    @Scheduled(fixedRate = 6000)
+   // @Scheduled(fixedRate = 6000)
     private void reportCurrentTime(){
   System.out.println("现在时间"+simpleDateFormat.format(new Date()));
     }

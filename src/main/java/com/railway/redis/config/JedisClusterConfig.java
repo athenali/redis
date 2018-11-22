@@ -21,7 +21,7 @@ public class JedisClusterConfig {
      */
     @Bean
     public JedisCluster getJedisCluster() {
-       redisProperties.setClusterNodes("10.83.7.155:9001,10.83.7.155:9002,10.83.7.155:9003,10.83.7.155:9004,10.83.7.155:9005,10.83.7.155:9006");
+      // redisProperties.setClusterNodes("10.83.7.155:9001,10.83.7.155:9002,10.83.7.155:9003,10.83.7.155:9004,10.83.7.155:9005,10.83.7.155:9006");
         String[] serverArray = redisProperties.getClusterNodes().split(",");//获取服务器数组(这里要相信自己的输入，所以没有考虑空指针问题)
         Set<HostAndPort> nodes = new HashSet<>();
         for (String ipPort : serverArray) {

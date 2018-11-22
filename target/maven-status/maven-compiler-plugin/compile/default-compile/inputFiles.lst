@@ -1,0 +1,11 @@
+E:\ownworkspace\redis\src\main\java\com\railway\redis\config\RedisConfig.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\config\JedisClusterConfig.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\config\RedisProperties.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\RBPSEMSApplication.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\entity\Role.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\entity\User.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\mail\MailService.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\scheduler\schedulerTask.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\mail\MailServiceImpl.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\config\DuridConfig.java
+E:\ownworkspace\redis\src\main\java\com\railway\redis\repository\UserRepository.java

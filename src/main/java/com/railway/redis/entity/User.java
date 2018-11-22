@@ -1,4 +1,4 @@
-package com.railway.rbpsems.entity;
+package com.railway.redis.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;

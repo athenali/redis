@@ -6,6 +6,8 @@ import org.junit.runner.RunWith;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.JedisCluster;
@@ -21,6 +23,8 @@ public class RedisTest {
 private JedisCluster jedisCluster;
     private  static final org.slf4j.Logger logger=LoggerFactory.getLogger(RedisTest.class);
 
+@Autowired
+private StringRedisTemplate stringRedisTemplate;
 @Test
     public void test(){
 // 第一步：使用JedisCluster对象。需要一个Set<HostAndPort>参数。Redis节点的列表。
@@ -58,11 +62,16 @@ private JedisCluster jedisCluster;
 }*/
 @Test
     public void test1(){
-  //  Boolean bb=jedisCluster.exists("name");
+    Boolean bb=jedisCluster.exists("name");
     logger.debug("8888888888888888888888888888");
     logger.error("9999999999999999999999999999999");
     logger.info("0000000099999999999999997777777777777777777");
-    System.out.println("==============");
+    System.out.println("=============="+bb);
 }
+@Test
+    public void testRedis(){
+    stringRedisTemplate.opsForValue().set("aa","aaaa");
+}
+
 
 }
